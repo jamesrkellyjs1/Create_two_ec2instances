@@ -1,4 +1,4 @@
-resource "aws_instance" "demo" {
+resource "aws_instance" "Webserver" {
   ami = lookup(var.AMI, var.REGION)
   instance_type = var.INSTANCE_TYPE
   key_name = var.KEY_NAME
