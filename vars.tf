@@ -25,6 +25,30 @@ variable "TAGS" {
   default = "Webservers"
 }
 
+variable "SG_NAME" {
+  default = "LabSecurityGroup"
+}
+
+variable "SG_DESCRIPTION" {
+  default = "Allow SSH and HTTP"
+}
+
+variable "SG_PORT_SSH" {
+  default = "22"
+}
+
+variable "SG_PORT_HTTP" {
+  default = "80"
+}
+
+variable "SG_PROTOCOL" {
+  default = "tcp"
+}
+
+variable "SG_CIDR" {
+  default = "0.0.0.0/0"
+}
+
 variable "COUNT" {
   default = "2"
 }
