@@ -22,7 +22,7 @@ variable "KEY_NAME" {
 }
 
 variable "TAGS" {
-  default = "Demo"
+  default = "Webservers"
 }
 
 variable "COUNT" {
